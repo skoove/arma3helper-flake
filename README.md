@@ -1,3 +1,4 @@
+# arma3helper-flake
 nix flake for [Arma3Helper](https://github.com/ninelore/armaonlinux).
 
 ## usage
