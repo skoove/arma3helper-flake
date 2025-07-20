@@ -29,7 +29,7 @@
 
           proton_custom_version = lib.mkOption {
             default = "";
-            type = lib.types.string;
+            type = lib.types.str;
             description = ''
               From script comments:
 
@@ -40,7 +40,7 @@
 
           compat_data_path = lib.mkOption {
             default = "";
-            type = lib.types.string;
+            type = lib.types.str;
             description = ''
               From script comments:
 
@@ -50,7 +50,7 @@
           };
 
           steam_library_path = lib.mkOption {
-            type = lib.types.string;
+            type = lib.types.str;
             default = "";
             description = ''
               From script comments:
