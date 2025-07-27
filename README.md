@@ -2,7 +2,12 @@
 nix flake for [Arma3Helper](https://github.com/ninelore/armaonlinux).
 
 ## usage
-add flake as an input:
+> [!WARNING]
+> # ***DONT USE IT!!***
+>
+> do not even bother vro, i made a guide on how to run arma, it works on nix, i know this because i use nix https://skoove.dev/blog/arma-3-on-linux
+
+~~add flake as an input:~~
 ```nix
 arma3helper = {
   url = "/home/zie/development/arma-3-helper-flake";
@@ -10,7 +15,7 @@ arma3helper = {
 };
 ```
 
-use the provided module:
+~~use the provided module:~~
 
 ```nix
 { inputs , ... }:
